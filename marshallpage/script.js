@@ -3,7 +3,7 @@ if (cookieValue) { // Redirects the user back to the auth page if the cookie doe
     console.log("auth succeded")
 }  else {
     console.log("auth failed")
-    window.location.href = "https://athleticscarnival.umbreon.zip/login";
+    window.location.href = "https://athleticscarnival.flareon.lol/login";
 }
 
 // shit dont work :skull:
