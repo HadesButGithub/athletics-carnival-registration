@@ -1,6 +1,6 @@
 // Major assistance provided by Raycast AI, see README for more info
 function loginFlow() { // Initialises "loginFlow" function
-  let usernameInput = upper(document.getElementById("username").value); // Sets var "usernameInput" to the value of the username field
+  let usernameInput = document.getElementById("username").value; // Sets var "usernameInput" to the value of the username field
   let passwordInput = document.getElementById("password").value; // Sets var "passwordInput" to the value of the password field
   let loginConfirm = document.getElementById("loginConfirm"); // Sets var "loginConfirm" to the "loginConfirm" paragraph in the HTML
   var now = new Date(); // Sets a variable for the current date
