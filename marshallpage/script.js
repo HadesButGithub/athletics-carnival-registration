@@ -1,4 +1,4 @@
-var cookieValue = document.cookie.replace(/(?:(?:^|.*;\s*)login\s*\=\s*([^;]*).*$)|^.*$/, "$1"); // Sets var 'cookieValue' to the value of the 'loggedInStatus' cookie using regex
+let cookieValue = document.cookie;
 if (cookieValue) { // Redirects the user back to the auth page if the cookie does not equal true
     console.log("auth succeded")
 }  else {
