@@ -10,7 +10,6 @@ function loginFlow() { // Initialises "loginFlow" function
     document.cookie = "login=true; expires=" + expires.toUTCString(); // Saves (very basic) login cookie to the browser
     window.location.href = "https://athleticscarnival.flareon.lol/marshallpage"; // Redirects the user to the marshalling page if both fields contain "admin"
   }
-
 }
 // This login method has potentially the worst security ever seen in a web app, second only to Dropbox in 2011 when passwords were optional for a few hours.
 // https://techcrunch.com/2011/06/20/dropbox-security-bug-made-passwords-optional-for-four-hours/
