@@ -17,7 +17,7 @@ function loginFlow() { // Initialises "loginFlow" function
   }
 
   document.cookie = "login=true; expires=" + expires.toUTCString(); // Saves (very basic) login cookie to the browser
-  window.location.href = "https://athleticscarnival.umbreon.zip/marshallpage"; // Redirects the user to the marshalling page if both fields contain "admin"
+  window.location.href = "https://athleticscarnival.flareon.lol/marshallpage"; // Redirects the user to the marshalling page if both fields contain "admin"
 }
 // This login method has potentially the worst security ever seen in a web app, second only to Dropbox in 2011 when passwords were optional for a few hours.
 // https://techcrunch.com/2011/06/20/dropbox-security-bug-made-passwords-optional-for-four-hours/
@@ -27,7 +27,7 @@ function loginFlow() { // Initialises "loginFlow" function
 // * Stores the credentials IN THE CODE, allowing any visitor to inspect element to grab them
 // * Allows the user to simply go to athleticscarnival.umbreon.zip/marshallpage and completely bypass the login 💀
 
-// As of coding, the only protection this has is it's locally hosted and requires OAuth via Tailscale to access the web server. This will no longer exist when moved to Replit.
+// **This is now invalid as it's hosted publicly** As of coding, the only protection this has is it's locally hosted and requires OAuth via Tailscale to access the web server. This will no longer exist when moved to Replit.
 
 // Ideally, the marshalling page will check that the user has logged in through a cookie of some sort and redirect to the login page if not logged in.
 // I could also hand over the entire login process to Google OAuth and only need to store an email or token on our servers.
