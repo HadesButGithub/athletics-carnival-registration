@@ -1,10 +1,18 @@
-let cookieValue = document.cookie;
-if (cookieValue) { // Redirects the user back to the auth page if the cookie does not equal true
-    console.log("auth succeded")
-}  else {
-    console.log("auth failed")
-    window.location.href = "https://athleticscarnival.flareon.lol/login";
-}
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i <ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
 
 // shit dont work :skull:
 // chatgpt failed me here
