@@ -7,3 +7,5 @@ if (cookieValue) { // Redirects the user back to the auth page if the cookie doe
 }
 
 // shit dont work :skull:
+// chatgpt failed me here
+// TO-DO: fix this
