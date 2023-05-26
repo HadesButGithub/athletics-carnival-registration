@@ -1,6 +1,12 @@
 # athletics-carnival-registration
 An athletics carnival registration ***prototype*** created for a Software Design and Development assessment task.
 
+## Try it out
+The default username and password are 'admin' and the code is hosted at https://athleticscarnival.flareon.lol.
+
+## Try it locally / Developing
+Clone the repository with `git clone https://github.com/HadesButGithub/athletics-carnival-registration`, and open index.html under the login folder.
+
 ## AI Disclosure
 LLMs were used in the creation of this project.
 ### /login
