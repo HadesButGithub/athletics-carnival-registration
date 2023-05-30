@@ -1,18 +1,11 @@
-function getCookie() {
-  var name = "login=true";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for (var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      window.location.replace("login.html");
-      return "";
-    }
+// Function that gets cookie from browser (login=true) and loads marshallpage index.html if exists. Otherwise, redirect to login page. 
+function checkLogin() {
+  var cookie = document.cookie;
+  if (cookie.includes("login=true")) {
+    window.location.href = "https://athleticscarnival.flareon.lol/marshallpage";
+  } else {
+    window.location.href = "https://athleticscarnival.flareon.lol/login";
   }
-  return "";
 }
 
 // NOTE 30/05/23 12:43pm - Attempting to use GitHub Copilot here
