@@ -1,7 +1,7 @@
 function checkLogin() {
   var cookie = document.cookie; // Sets var "cookie" to the value of the cookie in the browser
   if (cookie.includes("login=true")) { // Checks if the cookie contains the string "login=true"
-    window.location.href = "https://athleticscarnival.flareon.lol/marshallpage"; // Continues to marshalling page if cookie exists
+    console.log("success") // Creates console log if successful
   } else {
     window.location.href = "https://athleticscarnival.flareon.lol/login"; // Redirects to login page if valid cookie does not exist
   }
