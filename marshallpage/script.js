@@ -9,4 +9,9 @@ function getCookie() {
     return "";
 }
 
+// If cookie doesn't exist, redirect to login page
+if (getCookie() == "") {
+    window.location.href = "https://athleticscarnival.flareon.lol/login";
+}
+
 // NOTE 30/05/23 12:43pm - Attempting to use GitHub Copilot here
