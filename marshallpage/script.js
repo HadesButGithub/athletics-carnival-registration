@@ -16,7 +16,7 @@ function registerEvent() {
 }
 
 function logout() {
-  document.cookie = "cookieName=login; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"; // Sets login cookie to date in past, rendering it invalid
+  //document.cookie = "cookieName=login; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"; // Sets login cookie to date in past, rendering it invalid
   window.location.href = "https://athleticscarnival.flareon.lol/login"; // Redirects back to login page
 }
 
