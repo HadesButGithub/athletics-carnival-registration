@@ -1,4 +1,5 @@
 // Major assistance provided by Raycast AI, see README for more info
+// URLs need to be changed for Replit
 function loginFlow() { // Initialises "loginFlow" function
   let usernameInput = document.getElementById("username").value; // Sets var "usernameInput" to the value of the username field
   let passwordInput = document.getElementById("password").value; // Sets var "passwordInput" to the value of the password field
@@ -11,6 +12,7 @@ function loginFlow() { // Initialises "loginFlow" function
     window.location.href = "https://athleticscarnival.flareon.lol/marshallpage"; // Redirects the user to the marshalling page if user is authenticated
   }
 }
+
 // This login method has potentially the worst security ever seen in a web app, second only to Dropbox in 2011 when passwords were optional for a few hours.
 // https://techcrunch.com/2011/06/20/dropbox-security-bug-made-passwords-optional-for-four-hours/
 
