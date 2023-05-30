@@ -1,19 +1,12 @@
-function getCookie(cname) {
-    let name = cname + "=";
-    let decodedCookie = decodeURIComponent(document.cookie);
-    let ca = decodedCookie.split(';');
-    for(let i = 0; i <ca.length; i++) {
-      let c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
+function getCookie() {
+    var name = "user=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    var cookie = ca[0].split('=');
+    if (cookie[0] == name) {
+        return cookie[1];
     }
     return "";
-  }
+}
 
-// shit dont work :skull:
-// chatgpt failed me here
-// TO-DO: fix this
+// NOTE 30/05/23 12:43pm - Attempting to use GitHub Copilot here

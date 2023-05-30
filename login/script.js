@@ -17,10 +17,7 @@ function loginFlow() { // Initialises "loginFlow" function
 // This login method does the following wrong:
 // * Stores the user credentials in plain-text as opposed to hashing at least the password
 // * Stores the credentials IN THE CODE, allowing any visitor to inspect element to grab them
-// * Allows the user to simply go to athleticscarnival.umbreon.zip/marshallpage and completely bypass the login 💀
-
-// **This is now invalid as it's hosted publicly** As of coding, the only protection this has is it's locally hosted and requires OAuth via Tailscale to access the web server. This will no longer exist when moved to Replit.
-
+// * Allows the user to simply go to athleticscarnival.flareon.lol/marshallpage and completely bypass the login 💀
 // Ideally, the marshalling page will check that the user has logged in through a cookie of some sort and redirect to the login page if not logged in.
 // I could also hand over the entire login process to Google OAuth and only need to store an email or token on our servers.
 // I don't know how to do any of this, and none of it will be implemented.
