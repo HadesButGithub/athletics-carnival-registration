@@ -8,7 +8,7 @@ function loginFlow() { // Initialises "loginFlow" function
   var expires = new Date(now.getTime() + 24 * 60 * 60 * 1000); // Sets variable for expiration of the login cookie
 
   if (usernameInput == "admin" && passwordInput == "admin") { 
-    document.cookie = "login=true" // Saves (very basic) login cookie to the browser
+    document.cookie = "login=true; path=/" // Saves (very basic) login cookie to the browser
     window.location.href = "https://athleticscarnival.flareon.lol/marshallpage"; // Redirects the user to the marshalling page if user is authenticated
   }
 }
