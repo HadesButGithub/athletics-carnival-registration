@@ -6,6 +6,7 @@ The default username and password are 'admin' and the code is hosted at https://
 
 ## Try it locally / Developing
 Clone the repository with `git clone https://github.com/HadesButGithub/athletics-carnival-registration`, and open index.html under the login folder.
+Currently, the code relies on the public server for redirects. This should be fixed soon.
 
 ## AI Disclosure
 This project has used the following LLM tools to generate code or for research:
