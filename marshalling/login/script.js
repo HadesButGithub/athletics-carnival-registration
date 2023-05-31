@@ -9,7 +9,7 @@ function loginFlow() { // Initialises "loginFlow" function
 
   if (usernameInput == "admin" && passwordInput == "admin") { 
     document.cookie = "login=true; expires=" + expires.toUTCString() + "; path=/"; // Saves (very basic) login cookie to the browser
-    window.location.href = "/marshallpage"; // Redirects the user to the marshalling page if user is authenticated
+    window.location.href = "/marshalling/marshallpage"; // Redirects the user to the marshalling page if user is authenticated
   }
 }
 
