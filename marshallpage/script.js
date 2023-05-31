@@ -1,10 +1,10 @@
 function checkLogin() {
   var cookie = document.cookie; // Sets var "cookie" to the value of the cookie in the browser
-  if (cookie.includes("login=true")) { // Checks if the cookie contains the string "login=true"
-    console.log("success") // Creates console log if successful
+  if (cookie === "login=true; path=/") {
+    console.log("success");
   } else {
-    window.location.href = "https://athleticscarnival.flareon.lol/login"; // Redirects to login page if valid cookie does not exist
-  }
+    window.location.href = "https://athleticscarnival.flareon.lol/login";
+  }  
 }
 
 function registerCompetitor() {
