@@ -8,23 +8,8 @@ The default username and password are 'admin' and the code is hosted at https://
 Clone the repository with `git clone https://github.com/HadesButGithub/athletics-carnival-registration`, and open index.html under the login folder.
 
 ## AI Disclosure
-LLMs were used in the creation of this project.
-### /login
-**script.js - Major assistance provided**
-
-AI LLMs were used to do the following:
-* Build the framework for the login flow
-* Find how to create cookies
-* Develop variables with current time and date
-* Optimise the login flow
-
-**index.html - Minor assistance provided**
-
-AI LLMs were used to do the following:
-* Build HTML text inputs
-
-### /marshallpage
-**script.js - Major assistance provided**
-
-AI LLMs were used to do the following:
-* Create the cookie check flow
+This project has used the following LLM tools to generate code or for research:
+* ChatGPT (OpenAI GPT 3.5)
+* Raycast AI (OpenAI GPT 3.5)
+* GitHub Copilot (OpenAI Codex)
+* Google Bard
