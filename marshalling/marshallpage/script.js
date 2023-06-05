@@ -11,7 +11,7 @@ function registerCompetitor() {
 
 }
 
-function registerEvent() {
+function studentsRegistered() {
 
 }
 
