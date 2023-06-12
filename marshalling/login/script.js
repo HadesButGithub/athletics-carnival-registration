@@ -2,7 +2,7 @@
 function checkLogin() {
   var cookie = document.cookie; // Get the cookie string
   // Check if the cookie "login=true" exists and is not expired
-  if (cookie.indexOf("login=true") != -1 && cookie.indexOf("login=true; expires=Thu, 01 Jan 1970 00:00:00 UTC;") == -1) {
+  if (cookie.indexOf("login=true")) {
     window.location.href = "/marshalling/marshallpage"; // Redirect the user to the marshalling page if user is authenticated
   }
 }

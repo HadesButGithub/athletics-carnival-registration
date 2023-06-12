@@ -15,8 +15,12 @@ function studentsRegistered() {
 
 }
 
+function studentReport() {
+  
+}
+
 function logout() {
-  document.cookie = "cookieName=login; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"; // Sets login cookie to date in past, rendering it invalid
+  document.cookie = "login=false; expires=" + expires.toUTCString() + "; path=/"; // Saves (very basic) login cookie to the browser
   window.location.href = "/marshalling/login"; // Redirects back to login page
 }
 
