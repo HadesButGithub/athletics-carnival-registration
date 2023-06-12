@@ -16,10 +16,10 @@ function studentsRegistered() {
 }
 
 function studentReport() {
-  
+
 }
 
-function logout() {
+function logoutFlow() {
   document.cookie = "login=false; expires=" + expires.toUTCString() + "; path=/"; // Saves (very basic) login cookie to the browser
   window.location.href = "/marshalling/login"; // Redirects back to login page
 }
