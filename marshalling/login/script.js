@@ -1,9 +1,8 @@
 // Major assistance provided by Raycast AI, see README for more info
 function checkLogin() {
   var cookie = document.cookie; // Get the cookie string
-<<<<<<< HEAD
   // Check if the cookie "login=true" exists and is not expired
-  if (cookie.indexOf("login=true")) {
+  if (cookie.indexOf("login=true") != -1 && cookie.indexOf("login=true; expires=Thu, 01 Jan 1970 00:00:00 UTC;") == -1) {
     window.location.href = "/marshalling/marshallpage"; // Redirect the user to the marshalling page if user is authenticated
   }
 }
@@ -13,10 +12,6 @@ function logout() {
   if (confirm("Are you sure you want to log out?")) { // If the user presses "OK" on the popup
     document.cookie = "login=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"; // Delete the login cookie
     window.location.href = "/marshalling/login"; // Redirect the user to the login page
-=======
-  if (cookie.includes("login=true")) { // Check if the cookie contains "login=true"
-    window.location.href = "/marshalling/marshallpage"; // Redirect to login page if the cookie doesn't exist
->>>>>>> parent of 362afbc (login page work)
   }
 }
 
