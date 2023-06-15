@@ -11,7 +11,11 @@ function registerCompetitor() {
 
 }
 
+<<<<<<< HEAD
 function studentsRegistered() { // Function that displays all students registered for the competition
+=======
+function registerEvent() {
+>>>>>>> parent of 362afbc (login page work)
 
 }
 
