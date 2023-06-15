@@ -1,6 +1,6 @@
 function checkLogin() {
   var cookie = document.cookie; // Get the cookie string
-  if (cookie.includes("login=true")) { // Check if the cookie contains "login=true"
+  if (cookie.includes("login=false")) { // Check if the cookie contains "login=true"
     console.log("success"); // Log success if the cookie exists
   } else {
     window.location.href = "/marshalling/login"; // Redirect to login page if the cookie doesn't exist
