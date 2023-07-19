@@ -3,8 +3,12 @@
 <head>
     <title>Carnival Registration Page</title> <!-- Sets tab title to "Carnival Registration Page" -->
     <script src="script.js"></script> <!-- Loads JS -->
-    <link rel="stylesheet" href="style.css"> <!-- Loads CSS-->
+    <link rel="stylesheet" href="/marshalling/style.css"> <!-- Loads CSS-->
 </head>
+
+<header>
+    <a href="/marshalling/marshallpage/index.html">Home</a>
+</header>
 
 <body onload=checkLogin()>
     <h1>Carnival Registration Login Page</h1>
@@ -15,6 +19,5 @@
     <label for="password">Password</label>
     <input type="password" id="password" name="password"> <br> 
     <button onclick=loginFlow()>Login</button> <!-- Adds button that runs "loginFlow" function when clicked -->
-
     <p id="loginConfirm"></p>
 </body>
