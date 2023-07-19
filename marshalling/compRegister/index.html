@@ -6,15 +6,15 @@
 </head>
 
 <header>
-    <a href="/marshalling/marshallpage/index.html">Home</a>
+    <a href="/marshalling/marshallpage/index.html">Home</a> <!-- Adds link to home page -->
 </header>
 
 <body onload=checkLogin()>
     <h1>Register a Competitor</h1>
     <form>
-        <label for="name">Name:</label>
+        <label for="name">Name:</label> <!-- Creates name text field -->
         <input type="text" id="name" name="name"><br><br>
-        <label for="event">Event:</label>
+        <label for="event">Event:</label> <!-- Creates event dropdown menu -->
         <select id="event" name="event">
             <option value="100m Sprint">100m Sprint</option>
             <option value="200m Sprint">200m Sprint</option>
@@ -29,7 +29,18 @@
             <option value="Long Jump">Long Jump</option>
             <option value="Triple Jump">Triple Jump</option>
         </select><br><br>
-        <input type="button" value="Submit" onclick="registerFlow()">
+        <label for="gender">Gender:</label> <!-- Creates gender dropdown menu. See end of code for more info. -->
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+        <input type="button" value="Submit" onclick="registerFlow()"> <!-- Adds button that runs "registerFlow" function when clicked -->
     </form>
-    <p id="registerConfirm"></p>
+    <p id="registerConfirm"></p> <!-- Creates paragraph element that will be used to display confirmation message -->
 </body> 
+
+<!-- 
+Inclusive design was taken very seriously during the development of this site, however the decision to only have two gender options was decided to be the best
+solution. This decision was made under the assumption that the school would be following traditional sporting procedures, which would mean that the school would
+be splitting competitors by male and female.
+-->
