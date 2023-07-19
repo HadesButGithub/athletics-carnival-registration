@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
     <script src="script.js"></script>
-    <title>Registered Students</title>
-    <link rel="stylesheet" href="/marshalling/style.css"> <!-- Loads CSS-->
+    <title>Student Report</title>
+    <link rel="stylesheet" href="/style.css"> <!-- Loads CSS-->
 </head>
 
 <header>
@@ -10,6 +10,12 @@
 </header>
 
 <body onload=checkLogin()>
-    <h1>Registered Students</h1>
-    
+    <h1>Student Report</h1>
+    <h2>Select a Student:</h2>
+    <select id="studentSelect">
+        <option value="Mike Oxlong">Mike Oxlong</option>
+        <option value="Dang Lin-Wang">Dang Lin-Wang</option>
+    </select><br><br>
+    <p id="studentReport"></p>
+    <button onclick="studentReportFlow()">Submit</button>
 </body> 
