@@ -6,15 +6,15 @@ function checkLogin() {
 }
 
 function registerCompetitor() { 
-
+  window.location.href = "/marshalling/compRegister";
 }
 
 function studentsRegistered() { // Function that displays all students registered for the competition
-
+  window.location.href = "/marshalling/regStudents";
 }
 
 function studentReport() { 
-
+  window.location.href = "/marshalling/studentReport"
 }
 
 function logoutFlow() {

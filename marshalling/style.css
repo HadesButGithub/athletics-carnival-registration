@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,700&display=swap');
+body {
+    background: linear-gradient(85deg, #6277ee 0%, #b902da 100%);
+    font-family: Archivo, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border: 2px solid #00000012;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.162);
+    resize: none;
+    color: white;
+    font-size: medium;
+    height: 40px;
+    width: 500px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border: 2px solid #00000012;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.162);
+    resize: none;
+    color: white;
+    font-size: medium;
+    height: 40px;
+    width: 500px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 500px
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    font-family: Archivo, Helvetica, sans-serif;
+}

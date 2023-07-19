@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <script src="script.js"></script>
+    <title>Register a Competitor</title>
+    <link rel="stylesheet" href="/marshalling/style.css"> <!-- Loads CSS-->
+</head>
+
+<header>
+    <a href="/marshalling/marshallpage/index.html">Home</a>
+</header>
+
+<body onload=checkLogin()>
+    <h1>Register a Competitor</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="event">Event:</label>
+        <select id="event" name="event">
+            <option value="100m Sprint">100m Sprint</option>
+            <option value="200m Sprint">200m Sprint</option>
+            <option value="400m Sprint">400m Sprint</option>
+            <option value="800m Sprint">800m Sprint</option>
+            <option value="1500m Sprint">1500m Sprint</option>
+            <option value="Relays">Relays</option>
+            <option value="Shotput">Shotput</option>
+            <option value="Discus">Discus</option>
+            <option value="Javelin">Javelin</option>
+            <option value="High Jump">High Jump</option>
+            <option value="Long Jump">Long Jump</option>
+            <option value="Triple Jump">Triple Jump</option>
+        </select><br><br>
+        <input type="button" value="Submit" onclick="registerFlow()">
+    </form>
+    <p id="registerConfirm"></p>
+</body> 

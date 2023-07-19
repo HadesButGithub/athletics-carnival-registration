@@ -2,12 +2,17 @@
 <head>
     <script src="script.js"></script>
     <title>Carnival Registration Marshalling</title>
+    <link rel="stylesheet" href="/marshalling/style.css"> <!-- Loads CSS-->
 </head>
 
+<header>
+    <a href="/marshalling/marshallpage/index.html">Home</a>
+</header>
+
 <body onload=checkLogin()>
-    Hello, admin! <br>
-    <button>Register Competitor</button> <br>
-    <button>View Registered Students</button> <br>
-    <button>Student Report</button> <br>
-    <button onclick="logout()">Logout</button> <br>
+    <h1>Hello, admin!</h1> <br>
+    <button onclick="registerCompetitor()">Register Competitor</button> <br>
+    <button onclick="studentsRegistered()">View Registered Students</button> <br>
+    <button onclick="studentReport()">Student Report</button> <br>
+    <button onclick="logoutFlow()">Logout</button> <br>
 </body> 
