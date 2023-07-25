@@ -18,6 +18,7 @@ function logout() {
   }
 }
 
+
 function loginFlow() { // Initialises "loginFlow" function
   let usernameInput = document.getElementById("username").value; // Sets var "usernameInput" to the value of the username field
   let passwordInput = document.getElementById("password").value; // Sets var "passwordInput" to the value of the password field
