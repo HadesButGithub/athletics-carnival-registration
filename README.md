@@ -2,7 +2,7 @@
 An athletics carnival registration ***prototype*** created for a Software Design and Development assessment task.
 
 ## Try it out
-The default username and password are 'admin' and the code is hosted at https://eevee.ninja/marshalling.
+The default username and password are 'admin' and the code is hosted at https://eevee.ninja/.
 
 ## Try it locally / Developing
 Clone the repository with `git clone https://github.com/HadesButGithub/athletics-carnival-registration`.
